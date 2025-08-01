@@ -1,12 +1,13 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
+
 const projects = [
   {
     id: 1,
     title: "Pixabay Image Finder",
     description:
       "Responsive image search app with real-time filtering using the Pixabay API and ReactJS.",
-    image: "/public/pixabay.png",
+    image: "/pixabay.png",
     tags: ["ReactJS", "Pixabay API", "Vercel"],
     demoUrl: "https://pixabay-clone-h0jcpme5f-sushmita-purbey-projects.vercel.app/",
     githubUrl: "https://github.com/sushmita-Purbey/pixabay-clone",
@@ -16,7 +17,7 @@ const projects = [
     title: "Firebase Contact App",
     description:
       "Contact management app with CRUD operations powered by Firebase Realtime Database.",
-    image: "/public/firebase.png",
+    image: "/firebase.png", // ✅ just reference the public folder path directly
     tags: ["ReactJS", "Firebase", "Vercel"],
     demoUrl: "https://project5-b4m676vi7-sushmita-purbey-projects.vercel.app/",
     githubUrl: "https://github.com/sushmita-Purbey/firebase-contact-app",
@@ -26,12 +27,13 @@ const projects = [
     title: "Clinic Management System",
     description:
       "Full-stack application for managing appointments, patient history, and admin workflows.",
-    image: "/public/clinic.png",
+    image: "/clinic.png",
     tags: ["ReactJS", "Node.js", "MongoDB"],
-    
-    
+    demoUrl: "#",
+    githubUrl: "#",
   },
 ];
+
 
 export const ProjectSection = () => {
   return (
