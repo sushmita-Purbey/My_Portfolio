@@ -42,6 +42,7 @@ export const ContactSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* Contact Information */}
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
@@ -60,6 +61,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
+
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
@@ -74,6 +76,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
+
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />
@@ -87,11 +90,12 @@ export const ContactSection = () => {
               </div>
             </div>
 
+            {/* Social Links */}
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
-                  href="https://linkedin.com/in/sushmita-purbey"
+                  href="https://www.linkedin.com/in/sushmita-purbey-992b6027a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
@@ -110,6 +114,7 @@ export const ContactSection = () => {
             </div>
           </div>
 
+          {/* Contact Form */}
           <div
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
@@ -118,10 +123,7 @@ export const ContactSection = () => {
 
             <form className="space-y-6">
               <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-2"
-                >
+                <label htmlFor="name" className="block text-sm font-medium mb-2">
                   Your Name
                 </label>
                 <input
@@ -135,10 +137,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium mb-2"
-                >
+                <label htmlFor="email" className="block text-sm font-medium mb-2">
                   Your Email
                 </label>
                 <input
@@ -152,10 +151,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium mb-2"
-                >
+                <label htmlFor="message" className="block text-sm font-medium mb-2">
                   Your Message
                 </label>
                 <textarea
