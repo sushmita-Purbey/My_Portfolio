@@ -29,7 +29,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/sushmita-purbey"
+            href="https://www.linkedin.com/in/sushmita-purbey-992b6027a/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
